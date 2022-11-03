@@ -11,7 +11,6 @@ import { stagingConfig } from './config/staging_config';
 const awsRegion = 'us-east-1';
 
 console.log('starting');
-console.log(validationSchema);
 
 (async () => {
     const client = new AppConfigClient({ region: awsRegion });
