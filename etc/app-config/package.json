@@ -6,7 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "format": "npx prettier -w .",
-        "deploy-staging-config": "STAGE=staging ts-node index.ts"
+        "deploy-staging-config": "STAGE=staging ts-node index.ts",
+        "deploy-prod-config": "STAGE=prod ts-node index.ts"
     },
     "keywords": [],
     "author": "",
